@@ -1,0 +1,254 @@
+0000.001 (0) Opened log file at time: Sun, 19 Apr 2020 05:27:23 +0000 on https://vainotonis.ikt.khk.ee/wordpress
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.23 WP: 5.4 PHP: 7.2.29 (cgi-fcgi, Linux ikt.khk.ee 3.10.0-1062.9.1.el7.x86_64 #1 SMP Fri Dec 6 15:49:49 UTC 2019 x86_64) MySQL: 5.6.47 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 37.1M | 38.3M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.065 (0) Free space on disk containing Updraft's temporary directory: 257182.9 MB
+0000.067 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.067 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.069 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1587177254, seconds_ago=96789)
+0000.071 (0) Set semaphore last lock (fd) time to 2020-04-19 05:27:23
+0000.071 (0) Semaphore lock (fd) complete
+0000.073 (0) Backup run: resumption=0, nonce=164a00d2277f, file_nonce=164a00d2277f begun at=1587274043 (0s ago), job type=backup
+0000.074 (0) Scheduling a resumption (1) after 300 seconds (1587274343) in case this run gets aborted
+0000.084 (0) Checking if we have a zip executable available
+0000.084 (0) Testing: /usr/bin/zip
+0000.091 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.092 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.092 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.093 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.093 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.099 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.100 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.108 (0) Working binary zip found: /usr/bin/zip
+0000.109 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.109 (0) Creation of backups of directories: beginning
+0000.111 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.274 (0) Total entities for the zip file: 692 directories, 3592 files (0 skipped as non-modified), 56.6 MB
+0000.283 (0) Zip: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.290 (0) Zip: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.297 (0) Zip: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.305 (0) Zip: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.312 (0) Zip: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.313 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.8 MB, 3592 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0000.730 (0) backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-plugins.zip.tmp: size is now: 4.60 MB
+0000.739 (0) Zip: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-plugins.zip.tmp: 600 files added (on-disk size: 4752.6 KB)
+0000.747 (0) Zip: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-plugins.zip.tmp: 700 files added (on-disk size: 4752.6 KB)
+0000.754 (0) Zip: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-plugins.zip.tmp: 800 files added (on-disk size: 4752.6 KB)
+0000.762 (0) Zip: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-plugins.zip.tmp: 900 files added (on-disk size: 4752.6 KB)
+0000.769 (0) Zip: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-plugins.zip.tmp: 1000 files added (on-disk size: 4752.6 KB)
+0000.770 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (14.6 MB, 3592 files batched, 501 (1002) added so far); re-opening (prior size: 4752.6 KB)
+0001.594 (0) backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-plugins.zip.tmp: size is now: 9.40 MB
+0001.603 (0) Zip: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-plugins.zip.tmp: 1100 files added (on-disk size: 9671.6 KB)
+0001.611 (0) Zip: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-plugins.zip.tmp: 1200 files added (on-disk size: 9671.6 KB)
+0001.618 (0) Zip: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-plugins.zip.tmp: 1300 files added (on-disk size: 9671.6 KB)
+0001.626 (0) Zip: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-plugins.zip.tmp: 1400 files added (on-disk size: 9671.6 KB)
+0001.634 (0) Zip: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-plugins.zip.tmp: 1500 files added (on-disk size: 9671.6 KB)
+0001.635 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.7 MB, 3592 files batched, 501 (1503) added so far); re-opening (prior size: 9671.6 KB)
+0001.874 (0) Zip: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-plugins.zip.tmp: 1600 files added (on-disk size: 10587.5 KB)
+0001.881 (0) Zip: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-plugins.zip.tmp: 1700 files added (on-disk size: 10587.5 KB)
+0001.889 (0) Zip: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-plugins.zip.tmp: 1800 files added (on-disk size: 10587.5 KB)
+0001.897 (0) Zip: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-plugins.zip.tmp: 1900 files added (on-disk size: 10587.5 KB)
+0001.905 (0) Zip: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-plugins.zip.tmp: 2000 files added (on-disk size: 10587.5 KB)
+0001.906 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.3 MB, 3592 files batched, 501 (2004) added so far); re-opening (prior size: 10587.5 KB)
+0002.140 (0) Zip: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-plugins.zip.tmp: 2100 files added (on-disk size: 11372.6 KB)
+0002.148 (0) Zip: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-plugins.zip.tmp: 2200 files added (on-disk size: 11372.6 KB)
+0002.156 (0) Zip: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-plugins.zip.tmp: 2300 files added (on-disk size: 11372.6 KB)
+0002.164 (0) Zip: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-plugins.zip.tmp: 2400 files added (on-disk size: 11372.6 KB)
+0002.171 (0) Zip: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-plugins.zip.tmp: 2500 files added (on-disk size: 11372.6 KB)
+0002.172 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (19.1 MB, 3592 files batched, 501 (2505) added so far); re-opening (prior size: 11372.6 KB)
+0003.216 (0) backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-plugins.zip.tmp: size is now: 16.60 MB
+0003.225 (0) Zip: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-plugins.zip.tmp: 2600 files added (on-disk size: 16953.6 KB)
+0003.233 (0) Zip: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-plugins.zip.tmp: 2700 files added (on-disk size: 16953.6 KB)
+0003.240 (0) Zip: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-plugins.zip.tmp: 2800 files added (on-disk size: 16953.6 KB)
+0003.248 (0) Zip: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-plugins.zip.tmp: 2900 files added (on-disk size: 16953.6 KB)
+0003.256 (0) Zip: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-plugins.zip.tmp: 3000 files added (on-disk size: 16953.6 KB)
+0003.257 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.1 MB, 3592 files batched, 501 (3006) added so far); re-opening (prior size: 16953.6 KB)
+0003.627 (0) Zip: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-plugins.zip.tmp: 3100 files added (on-disk size: 18345.6 KB)
+0003.635 (0) Zip: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-plugins.zip.tmp: 3200 files added (on-disk size: 18345.6 KB)
+0003.643 (0) Zip: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-plugins.zip.tmp: 3300 files added (on-disk size: 18345.6 KB)
+0003.650 (0) Zip: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-plugins.zip.tmp: 3400 files added (on-disk size: 18345.6 KB)
+0003.658 (0) Zip: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-plugins.zip.tmp: 3500 files added (on-disk size: 18345.6 KB)
+0003.659 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.4 MB, 3592 files batched, 501 (3507) added so far); re-opening (prior size: 18345.6 KB)
+0004.416 (0) Created plugins zip (0) - 21205.6 KB in 4.3 s (4979.5 KB/s) (sha1: 469db10315d71a20ba87b1eaedf54033507ca17e, sha256: aa2f56e97e4801a0e52fb9b552d75b602ef0cddd0f6ff4b95fffcbdd9e4a5e7c)
+0004.417 (0) Beginning creation of dump of themes (split every: 400 MB)
+0004.473 (0) Total entities for the zip file: 70 directories, 287 files (0 skipped as non-modified), 4.7 MB
+0004.481 (0) Zip: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0004.489 (0) Zip: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0004.706 (0) backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-themes.zip.tmp: size is now: 2.60 MB
+0004.749 (0) Created themes zip (0) - 2668.1 KB in 0.3 s (9351.4 KB/s) (sha1: d570a42f9d6b16f7b30b3a3595cfbdcacd32bb1b, sha256: a6c3875cd5d234f064d7d60874927a927e41235934999d57f75f189cc7c10a95)
+0004.751 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0004.751 (0) Looking for candidates to backup in: /home/vainotonisiktkhk/public_html/wordpress/wp-content/uploads
+0004.752 (0) finding files: 2020: adding to list (1)
+0004.752 (0) finding files: elementor: adding to list (2)
+0004.753 (0) finding files: ithemes-security: adding to list (3)
+0004.753 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0004.817 (0) Total entities for the zip file: 7 directories, 136 files (0 skipped as non-modified), 8 MB
+0004.825 (0) Zip: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0004.915 (0) backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-uploads.zip.tmp: size is now: 8.10 MB
+0005.043 (0) Created uploads zip (0) - 8258.7 KB in 0.2 s (33914 KB/s) (sha1: 93940668c972adefa375496f658256a29341c181, sha256: 08331fc04befd8b7ac227e4e8d14bf6a83578a5fd485de84814b190fd7060552)
+0005.045 (0) Beginning backup of other directories found in the content directory (index: 0)
+0005.045 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0005.046 (0) Looking for candidates to backup in: /home/vainotonisiktkhk/public_html/wordpress/wp-content
+0005.046 (0) finding files: themes: skipping: this is the themes directory
+0005.046 (0) finding files: index.php: adding to list (1)
+0005.047 (0) finding files: plugins: skipping: this is the plugins directory
+0005.047 (0) finding files: uploads: skipping: this is the uploads directory
+0005.048 (0) finding files: upgrade: skipping: excluded by options
+0005.048 (0) finding files: languages: adding to list (2)
+0005.049 (0) finding files: updraft: skipping: this is the updraft directory
+0005.098 (0) Total entities for the zip file: 1 directories, 20 files (0 skipped as non-modified), 1.8 MB
+0005.221 (0) backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-others.zip.tmp: size is now: 0.50 MB
+0005.232 (0) Created others zip (0) - 546.2 KB in 0.1 s (4021.9 KB/s) (sha1: 108a6906d714907b60883318938ec977fe9c556c, sha256: 35f24e3766b96efc62937fd3c7291aa4a925aa99335a53309732f753d8ceee72)
+0005.235 (0) Saving backup status to database (elements: 8)
+0005.237 (0) Beginning creation of database dump (WordPress DB)
+0005.238 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0005.256 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1254 bytes total)
+0005.257 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0005.262 (0) Table wp_options: Total expected rows (approximate): 247
+0005.301 (0) Table wp_options: Total rows added: 243 in 0.04 seconds
+0005.302 (0) Table wp_options: finishing file (backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_options.table.gz - 54.1 KB)
+0005.305 (0) Table wp_users: Total expected rows (approximate): 2
+0005.306 (0) Table wp_users: Total rows added: 2 in 0.00 seconds
+0005.307 (0) Table wp_users: finishing file (backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_users.table.gz - 0.6 KB)
+0005.309 (0) Table wp_usermeta: Total expected rows (approximate): 53
+0005.311 (0) Table wp_usermeta: Total rows added: 53 in 0.00 seconds
+0005.312 (0) Table wp_usermeta: finishing file (backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_usermeta.table.gz - 1.8 KB)
+0005.314 (0) Table wp_actionscheduler_actions: Total expected rows (approximate): 11
+0005.316 (0) Table wp_actionscheduler_actions: Total rows added: 11 in 0.00 seconds
+0005.317 (0) Table wp_actionscheduler_actions: finishing file (backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_actionscheduler_actions.table.gz - 1.1 KB)
+0005.319 (0) Table wp_actionscheduler_claims: Total expected rows (approximate): 0
+0005.320 (0) Table wp_actionscheduler_claims: Total rows added: 0 in 0.00 seconds
+0005.321 (0) Table wp_actionscheduler_claims: finishing file (backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_actionscheduler_claims.table.gz - 0.4 KB)
+0005.323 (0) Table wp_actionscheduler_groups: Total expected rows (approximate): 2
+0005.324 (0) Table wp_actionscheduler_groups: Total rows added: 2 in 0.00 seconds
+0005.325 (0) Table wp_actionscheduler_groups: finishing file (backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_actionscheduler_groups.table.gz - 0.4 KB)
+0005.328 (0) Table wp_actionscheduler_logs: Total expected rows (approximate): 30
+0005.329 (0) Table wp_actionscheduler_logs: Total rows added: 30 in 0.00 seconds
+0005.330 (0) Table wp_actionscheduler_logs: finishing file (backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_actionscheduler_logs.table.gz - 0.7 KB)
+0005.332 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0005.334 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0005.334 (0) Table wp_commentmeta: finishing file (backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0005.337 (0) Table wp_comments: Total expected rows (approximate): 3
+0005.338 (0) Table wp_comments: Total rows added: 3 in 0.00 seconds
+0005.339 (0) Table wp_comments: finishing file (backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_comments.table.gz - 1 KB)
+0005.342 (0) Table wp_itsec_distributed_storage: Total expected rows (approximate): 0
+0005.343 (0) Table wp_itsec_distributed_storage: Total rows added: 0 in 0.00 seconds
+0005.344 (0) Table wp_itsec_distributed_storage: finishing file (backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_itsec_distributed_storage.table.gz - 0.4 KB)
+0005.346 (0) Table wp_itsec_fingerprints: Total expected rows (approximate): 0
+0005.348 (0) Table wp_itsec_fingerprints: Total rows added: 0 in 0.00 seconds
+0005.348 (0) Table wp_itsec_fingerprints: finishing file (backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_itsec_fingerprints.table.gz - 0.4 KB)
+0005.351 (0) Table wp_itsec_geolocation_cache: Total expected rows (approximate): 0
+0005.352 (0) Table wp_itsec_geolocation_cache: Total rows added: 0 in 0.00 seconds
+0005.353 (0) Table wp_itsec_geolocation_cache: finishing file (backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_itsec_geolocation_cache.table.gz - 0.4 KB)
+0005.355 (0) Table wp_itsec_lockouts: Total expected rows (approximate): 0
+0005.356 (0) Table wp_itsec_lockouts: Total rows added: 0 in 0.00 seconds
+0005.357 (0) Table wp_itsec_lockouts: finishing file (backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_itsec_lockouts.table.gz - 0.4 KB)
+0005.359 (0) Table wp_itsec_logs: Total expected rows (approximate): 1
+0005.361 (0) Table wp_itsec_logs: Total rows added: 1 in 0.00 seconds
+0005.361 (0) Table wp_itsec_logs: finishing file (backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_itsec_logs.table.gz - 0.7 KB)
+0005.364 (0) Table wp_itsec_mutexes: Total expected rows (approximate): 0
+0005.366 (0) Table wp_itsec_mutexes: Total rows added: 0 in 0.00 seconds
+0005.366 (0) Table wp_itsec_mutexes: finishing file (backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_itsec_mutexes.table.gz - 0.3 KB)
+0005.369 (0) Table wp_itsec_temp: Total expected rows (approximate): 0
+0005.370 (0) Table wp_itsec_temp: Total rows added: 0 in 0.00 seconds
+0005.371 (0) Table wp_itsec_temp: finishing file (backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_itsec_temp.table.gz - 0.4 KB)
+0005.373 (0) Table wp_itsec_user_groups: Total expected rows (approximate): 5
+0005.374 (0) Table wp_itsec_user_groups: Total rows added: 5 in 0.00 seconds
+0005.375 (0) Table wp_itsec_user_groups: finishing file (backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_itsec_user_groups.table.gz - 0.6 KB)
+0005.378 (0) Table wp_links: Total expected rows (approximate): 0
+0005.379 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0005.380 (0) Table wp_links: finishing file (backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_links.table.gz - 0.4 KB)
+0005.382 (0) Table wp_postmeta: Total expected rows (approximate): 288
+0005.387 (0) Table wp_postmeta: Total rows added: 288 in 0.00 seconds
+0005.388 (0) Table wp_postmeta: finishing file (backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_postmeta.table.gz - 8.4 KB)
+0005.390 (0) Table wp_posts: Total expected rows (approximate): 88
+0005.398 (0) Table wp_posts: Total rows added: 88 in 0.01 seconds
+0005.399 (0) Table wp_posts: finishing file (backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_posts.table.gz - 18.5 KB)
+0005.401 (0) Table wp_term_relationships: Total expected rows (approximate): 24
+0005.403 (0) Table wp_term_relationships: Total rows added: 24 in 0.00 seconds
+0005.403 (0) Table wp_term_relationships: finishing file (backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0005.406 (0) Table wp_term_taxonomy: Total expected rows (approximate): 6
+0005.407 (0) Table wp_term_taxonomy: Total rows added: 6 in 0.00 seconds
+0005.408 (0) Table wp_term_taxonomy: finishing file (backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_term_taxonomy.table.gz - 0.5 KB)
+0005.410 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0005.411 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0005.412 (0) Table wp_termmeta: finishing file (backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_termmeta.table.gz - 0.4 KB)
+0005.414 (0) Table wp_terms: Total expected rows (approximate): 6
+0005.416 (0) Table wp_terms: Total rows added: 6 in 0.00 seconds
+0005.417 (0) Table wp_terms: finishing file (backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_terms.table.gz - 0.5 KB)
+0005.419 (0) Table wp_itsec_opaque_tokens: Total expected rows (approximate): 0
+0005.421 (0) Table wp_itsec_opaque_tokens: Total rows added: 0 in 0.00 seconds
+0005.421 (0) Table wp_itsec_opaque_tokens: finishing file (backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_itsec_opaque_tokens.table.gz - 0.3 KB)
+0005.424 (0) Table wp_wpforms_tasks_meta: Total expected rows (approximate): 1
+0005.426 (0) Table wp_wpforms_tasks_meta: Total rows added: 1 in 0.00 seconds
+0005.426 (0) Table wp_wpforms_tasks_meta: finishing file (backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_wpforms_tasks_meta.table.gz - 0.4 KB)
+0005.429 (0) Table wp_yoast_seo_links: Total expected rows (approximate): 0
+0005.430 (0) Table wp_yoast_seo_links: Total rows added: 0 in 0.00 seconds
+0005.431 (0) Table wp_yoast_seo_links: finishing file (backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_yoast_seo_links.table.gz - 0.4 KB)
+0005.433 (0) Table wp_yoast_seo_meta: Total expected rows (approximate): 0
+0005.435 (0) Table wp_yoast_seo_meta: Total rows added: 0 in 0.00 seconds
+0005.435 (0) Table wp_yoast_seo_meta: finishing file (backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_yoast_seo_meta.table.gz - 0.3 KB)
+0005.437 (0) backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_options.table.gz (1/28): adding to final database dump
+0005.453 (0) backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_users.table.gz (2/28): adding to final database dump
+0005.453 (0) backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_usermeta.table.gz (3/28): adding to final database dump
+0005.455 (0) backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_actionscheduler_actions.table.gz (4/28): adding to final database dump
+0005.455 (0) backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_actionscheduler_claims.table.gz (5/28): adding to final database dump
+0005.456 (0) backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_actionscheduler_groups.table.gz (6/28): adding to final database dump
+0005.456 (0) backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_actionscheduler_logs.table.gz (7/28): adding to final database dump
+0005.457 (0) backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_commentmeta.table.gz (8/28): adding to final database dump
+0005.457 (0) backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_comments.table.gz (9/28): adding to final database dump
+0005.458 (0) backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_itsec_distributed_storage.table.gz (10/28): adding to final database dump
+0005.459 (0) backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_itsec_fingerprints.table.gz (11/28): adding to final database dump
+0005.459 (0) backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_itsec_geolocation_cache.table.gz (12/28): adding to final database dump
+0005.460 (0) backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_itsec_lockouts.table.gz (13/28): adding to final database dump
+0005.460 (0) backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_itsec_logs.table.gz (14/28): adding to final database dump
+0005.461 (0) backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_itsec_mutexes.table.gz (15/28): adding to final database dump
+0005.461 (0) backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_itsec_temp.table.gz (16/28): adding to final database dump
+0005.462 (0) backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_itsec_user_groups.table.gz (17/28): adding to final database dump
+0005.462 (0) backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_links.table.gz (18/28): adding to final database dump
+0005.463 (0) backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_postmeta.table.gz (19/28): adding to final database dump
+0005.466 (0) backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_posts.table.gz (20/28): adding to final database dump
+0005.470 (0) backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_term_relationships.table.gz (21/28): adding to final database dump
+0005.471 (0) backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_term_taxonomy.table.gz (22/28): adding to final database dump
+0005.472 (0) backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_termmeta.table.gz (23/28): adding to final database dump
+0005.472 (0) backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_terms.table.gz (24/28): adding to final database dump
+0005.473 (0) backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_itsec_opaque_tokens.table.gz (25/28): adding to final database dump
+0005.473 (0) backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_wpforms_tasks_meta.table.gz (26/28): adding to final database dump
+0005.474 (0) backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_yoast_seo_links.table.gz (27/28): adding to final database dump
+0005.474 (0) backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db-table-wp_yoast_seo_meta.table.gz (28/28): adding to final database dump
+0005.476 (0) backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db.gz: finished writing out complete database file (72 KB)
+0005.481 (0) Total database tables backed up: 28 (backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db.gz, size: 89407, sha1: 7f537e77bac69835e99d5d5270f20d7a09240e62, sha256: e13610c202639cba925f769b82b85f920215c9f98414b8bc9c8ecdb05ce128b8)
+0005.485 (0) backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0005.486 (0) backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0005.486 (0) backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0005.487 (0) backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-others.zip: others: This file has not yet been successfully uploaded: will queue
+0005.487 (0) backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db.gz: db: This file has not yet been successfully uploaded: will queue
+0005.487 (0) Saving backup history. Total backup size: 32 MB
+0005.489 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0005.491 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0005.492 (0) No remote despatch: user chose no remote backup service
+0005.492 (0) Recording as successfully uploaded: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-plugins.zip
+0005.493 (0) Recording as successfully uploaded: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-themes.zip
+0005.494 (0) Recording as successfully uploaded: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-uploads.zip
+0005.496 (0) Recording as successfully uploaded: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-others.zip
+0005.497 (0) Recording as successfully uploaded: backup_2020-04-19-0827_VainotonisKHKCMS_164a00d2277f-db.gz
+0005.499 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0005.500 (0) Number of backup sets in history: 2; groups (db): 1
+0005.500 (0) Examining (for databases) backup set with group_id=0, nonce=164a00d2277f, datestamp=1587274043 (Apr 19 2020 05:27:23)
+0005.501 (0) This backup set is the backup set just made, so will not be deleted.
+0005.501 (0) Examining (for databases) backup set with group_id=0, nonce=2f1632f244f8, datestamp=1587177254 (Apr 18 2020 02:34:14)
+0005.501 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0005.501 (0) Number of backup sets in history: 2; groups (files): 1
+0005.502 (0) Examining (for files) backup set with nonce=164a00d2277f, datestamp=1587274043 (Apr 19 2020 05:27:23)
+0005.502 (0) This backup set is the backup set just made, so will not be deleted.
+0005.502 (0) This backup set is the backup set just made, so will not be deleted.
+0005.502 (0) This backup set is the backup set just made, so will not be deleted.
+0005.502 (0) This backup set is the backup set just made, so will not be deleted.
+0005.502 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0005.503 (0) Examining (for files) backup set with nonce=2f1632f244f8, datestamp=1587177254 (Apr 18 2020 02:34:14)
+0005.503 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0005.503 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0005.505 (0) Resume backup (164a00d2277f, 0): finish run
+0005.506 (0) Decremented the semaphore (fd) by 1
+0005.507 (0) Semaphore (fd) unlocked
+0005.507 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0005.509 (0) No email will/can be sent - the user has not configured an email address.
+0005.510 (0) The backup apparently succeeded and is now complete
